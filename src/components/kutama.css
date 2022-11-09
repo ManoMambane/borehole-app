@@ -1,0 +1,271 @@
+
+.optionResult {
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+.headerButtons{
+  /* background-color: purple; */
+  /* margin-right: 100px; */
+}
+.headerDivide{
+  /* background-color: yellow; */
+  margin-right: 450px;
+  margin-top: 100px;
+}
+
+.headerContainer{
+  display: flex;
+  justify-content: space-between;
+  /* background-color: black; */
+}
+.saveButton{
+  
+}
+
+.optionResult.positive {
+  color: green;
+  background-color: rgba(0, 128, 0, 0.151);
+}
+
+.optionResult.negative {
+  color: goldenrod;
+  background-color: rgba(189, 189, 3, 0.103);
+}
+
+
+.editicon {
+  font-size: 20px;
+  justify-content: space-between;
+  margin-left: 25px;
+  color: #00C49F;
+}
+
+.deleteicon {
+  font-size: 20px;
+  justify-content: space-between;
+  margin-left: 25px;
+  color: #db9942fa;
+}
+
+/* LEGEND START */
+.pielegend{
+  /* background-color: blue; */
+  margin-top: 150px;
+  align-items: center;
+  text-align: left;
+}
+
+.greenCircleIcon{
+  color: #00C49F;
+  display: flex;
+}
+
+.redCircleIcon{
+  color: #db9942fa;
+  display: flex;
+}
+
+/* LEGEND END */
+
+/* button start */
+
+.leftbutton {
+  border-radius: 30px;
+  background-color: #04AA6D;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 0px;
+  width: 50px;
+  height: 50px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-right: 85%;
+  margin-top: 50px;
+}
+
+.kutama {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #04AA6D;
+}
+
+.leftbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.leftbutton span:after {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.leftbutton:hover span {
+  padding-right: 25px;
+}
+
+.leftbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+/* button end */
+
+.cellWrapper {
+  display: flex;
+  align-content: center;
+
+}
+
+.image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+
+.tableCell {
+  align-items: center;
+  text-align: center;
+  display: flex;
+
+  background-color: rgb(231, 227, 227);
+}
+
+.addButton {
+  margin-left: 20px;
+  display: flex;
+}
+
+.editbtn {
+  /* background-color: rgba(138, 138, 2, 0.432); */
+  border: none;
+  color: rgba(212, 212, 0, 0.712);
+}
+
+/* SINGLE START */
+
+.single {
+  display: flex;
+  /* background-color: black; */
+/* height: 550px; */
+}
+
+.singleContainer {
+        /* background-color: pink; */
+        
+      }
+      
+.top {
+  padding: 20px;
+  display: flex;
+  /* background-color: yellow; */
+}
+
+.left {
+  flex: 1;
+  -webkit-box-shadow: 2px 4px 10px 1px rgb(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  /* background-color: red; */
+   padding: 20px;
+   position: relative;
+   width: 550px;
+  /*height: 400px; */
+  margin-right: 75px;
+}
+
+.right {
+  /* flex: 2; */
+  font-family: sans-serif;
+  text-align: center;
+  -webkit-box-shadow: 2px 4px 10px 1px rgb(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  /* background-color: blue; */
+  /* margin-right: 1000px; */
+}
+
+.editButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  font-size: 12px;
+  color: #7451f8;
+  background-color: #7551f818;
+  cursor: pointer;
+  border-radius: 0px 0px 0px 5px;
+}
+
+.item {
+  display: flex;
+  gap: 20px;
+
+}
+
+.itemImg {
+  width: 100%;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.itemTitle {
+  margin-right: 10px;
+  color: #555;
+}
+
+.detailItem {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.itemKey {
+  font-weight: bold;
+  color: gray;
+  margin-right: 5px;
+}
+
+.itemValue {
+  font-weight: 300;
+}
+
+
+.bottom {
+  -webkit-box-shadow: 2px 4px 10px 1px rgb(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 20px;
+  margin: 10px 20px;
+}
+
+.title {
+  font-size: 16px;
+  color: lightgray;
+  margin-bottom: 20px;
+}
+
+/* SINGLE END */
+
+/* KUTAMA PIE START */
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.pchart {
+  margin-left: 100px;
+  display: flex;
+}
+
+
+/* KUTAMA PIE END */

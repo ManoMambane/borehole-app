@@ -1,0 +1,37 @@
+.username {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  
+  .password {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  
+  .loginlogo {
+    margin-top: 100px;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+  /* h1{
+    margin-top: 100px;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+  }
+
+  .username {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .password {
+
+  }
+  
+  .loginlogo {
+
+  } */
